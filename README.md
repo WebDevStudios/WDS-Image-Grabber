@@ -4,6 +4,11 @@
 **Description:** Class to grab images from the body of a website.   
 **Author:** [WebDevStudios](http://webdevstudios.com)   
 **Author URI:** http://webdevstudios.com/   
+**Requires at least:** 3.6.0   
+**Tested up to:**      4.2.2   
+**Stable tag:**        0.1.0   
+**License:**           GPLv2   
+**License URI:**       http://www.gnu.org/licenses/gpl-2.0.html   
 
 ## Description ##
 
