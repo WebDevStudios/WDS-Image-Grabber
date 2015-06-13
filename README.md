@@ -1,15 +1,11 @@
-=== WDS Image Grabber ===
-Contributors: Mamaduka,phyrax,webdevstudios
-Tags: comments, spam
-Requires at least: 3.0.1
-Tested up to: 4.2
-Stable tag: 0.1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# WDS Image Grabber #
+**Version:** 0.1.0   
+**Contributors:** [George Mamadashvili](https://profiles.wordpress.org/Mamaduka/), [Jay Wood](https://profiles.wordpress.org/phyrax/)    
+**Description:** Class to grab images from the body of a website.   
+**Author:** [WebDevStudios](http://webdevstudios.com)   
+**Author URI:** http://webdevstudios.com/   
 
-A PHP class to get a list of image URLs from a remote address and return them in an array.
-
-== Description ==
+## Description ##
 
 A PHP class to get a list of image URLs from a remote address and return them in an array.  Works in conjunction with
 [CMB2 Remote Image Select Field](https://github.com/WebDevStudios/CMB2-Remote-Image-Select-Field) to provide users a facebook-style image selector for post-meta data.
@@ -23,24 +19,26 @@ that the image should in-fact be pulled into the list, the rules are as follows:
 
 This can be changed, or expanded upon by editing the `WDS_Image_Grabber::img_tags()` method.
 
-= Usage Example =
-```
-$url = 'http://www.amazon.com//Sales-Grocery/b?ie=UTF8&node=52129011&ref_=amb_link_353229922_2';
-$grabber = new WDS_Image_Grabber( $url );
-$images = $grabber->get_images();
-var_dump( $images );
+## Usage Example ##
+```php
+$url = 'http://www.amazon.com//Sales-Grocery/b?ie=UTF8&node=52129011&ref_=amb_link_353229922_2';   
+$grabber = new WDS_Image_Grabber( $url );   
+$images = $grabber->get_images();   
+var_dump( $images );   
 ```
 
-== Installation ==
+## Installation ##
+
+### Manual Installation ###
 
 1. Upload the entire `/wds-image-grabber` directory to the `/wp-content/plugins/` directory.
 2. Activate CMB2 Remote Image Select through the 'Plugins' menu in WordPress.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions ##
 
-* None as of yet.
+* None as of yet
 
-== Changelog ==
+## Changelog ##
 
-= 0.1.0 =
-* First Release
+### 0.1.0 ###
+* First release

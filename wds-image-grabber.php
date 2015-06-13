@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: WDS Image Grabber
-Version: 0.1
-Description: Class to grab images from website's body.
+Version: 0.1.0
+Description: CClass to grab images from the body of a website.
 Author: WebDevStudios
 Author URI: http://webdevstudios.com/
 Plugin URI: http://webdevstudios.com/
